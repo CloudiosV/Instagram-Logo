@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    border: 20px solid black;
+    margin: auto;
+    margin-top: 75px;
+    border-radius: 20%;
+    position: relative;
+}
+
+.item{
+    width:200px;
+    height: 200px;
+    position: absolute;
+}
+
+.one{
+    background-color: red;
+    top: 50px;
+    left: 50px;
+    border-radius: 100% 0 0 0;
+}
+
+.two{
+    background-color: green;
+    top: 50px;
+    right: 50px;
+    border-radius: 50% 50% 0 0;
+}
+
+.three{
+    background-color: blue;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 100% 0 100% 0;
+}
+
+.four{
+    background-color: yellow;
+    bottom: 50px;
+    left: 50px;
+    border: 50% 50% 0 50%;
+}

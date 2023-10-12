@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    border: 20px solid color(black red green blue);
+    margin-bottom: 15px;
+}
+    
+h1 { 
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cyan;
+    border: 5px solid gold;
+    border-radius: 20px;
+    background-color: red;
+}
